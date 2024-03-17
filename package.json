@@ -1,7 +1,7 @@
 {
   "name": "passwordgenerator",
   "version": "0.1.0",
-  "homepage": "https://github.com/Anastasi11a/passwordgenerator",
+  "homepage": "https://github.com/Anastasi11a/passwordgenerator.github.io",
   "private": true,
   "dependencies": {
     "@chakra-ui/react": "^2.8.2",
