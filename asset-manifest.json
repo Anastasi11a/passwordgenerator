@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/Anastasi11a/passwordgenerator.github.io/static/js/main.fe55fc06.js",
-    "static/js/453.2a7d545f.chunk.js": "/Anastasi11a/passwordgenerator.github.io/static/js/453.2a7d545f.chunk.js",
-    "index.html": "/Anastasi11a/passwordgenerator.github.io/index.html",
-    "main.fe55fc06.js.map": "/Anastasi11a/passwordgenerator.github.io/static/js/main.fe55fc06.js.map",
-    "453.2a7d545f.chunk.js.map": "/Anastasi11a/passwordgenerator.github.io/static/js/453.2a7d545f.chunk.js.map"
+    "main.js": "/passwordgenerator.github.io/static/js/main.785ef10c.js",
+    "static/js/453.2a7d545f.chunk.js": "/passwordgenerator.github.io/static/js/453.2a7d545f.chunk.js",
+    "index.html": "/passwordgenerator.github.io/index.html",
+    "main.785ef10c.js.map": "/passwordgenerator.github.io/static/js/main.785ef10c.js.map",
+    "453.2a7d545f.chunk.js.map": "/passwordgenerator.github.io/static/js/453.2a7d545f.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.fe55fc06.js"
+    "static/js/main.785ef10c.js"
   ]
 }
