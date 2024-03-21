@@ -36,22 +36,23 @@ const PasswordGenerator: React.FC = () => {
         }
 
         setPassword(generatedPsw);
-    }
+    };
 
     const getInputColor = () => {
         return complexity === "complex" ? "blue" : undefined;
-    }
+    };
 
     return (
         <Flex justifyContent="center" alignItems="center" height="100vh">
             <Box p={4}>
-                <Heading mb={6} pb={4} size="xl" textAlign="center" color="blue.600">PASSWORD GENERATOR</Heading>
+                <Heading mb={6} pb={4} size="xl" textAlign="center" color="blue.600">
+                    PASSWORD GENERATOR
+                </Heading>
                 <FormControl mb={4}>
                     <FormLabel>Password Length</FormLabel>
                     <Select
                         value={length}
                         onChange={(e) => setLength(parseInt(e.target.value))}>
-
                         <option value={8}>8</option>
                         <option value={12}>12</option>
                         <option value={16}>16</option>
@@ -63,7 +64,6 @@ const PasswordGenerator: React.FC = () => {
                     <Select
                         value={complexity}
                         onChange={(e) => setComplexity(e.target.value)}>
-
                         <option value="simple">Simple</option>
                         <option value="complex">Complex</option>
                     </Select>
@@ -76,7 +76,6 @@ const PasswordGenerator: React.FC = () => {
                     textAlign="center"
                     colorScheme="blue"
                     onClick={generatePassword}>
-
                     Generate Password
                 </Button>
 
@@ -85,11 +84,10 @@ const PasswordGenerator: React.FC = () => {
                         Your generated password:
                     </Text>
                 )}
-
                 <Input mb={4} value={password} isReadOnly color="blue.600" colorScheme={getInputColor()} />
             </Box>
         </Flex>
-    )
+    );
 }
 
 export default PasswordGenerator;
